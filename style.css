@@ -1,0 +1,331 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background: #f8faf7;
+  color: green;
+  font-size: 25px;
+  font-family: Roboto Mono;
+  min-height: 100vh;
+  padding-bottom: 2.5rem;
+  overflow-x: hidden !important;
+}
+
+h1{
+  font-family: Courier;
+  font-weight: lighter;
+  font-size: 10px;
+
+}
+h2 {
+  font-family: Courier;
+  font-size: 12px;
+  text-shadow: 0px -2px 1px lightgreen;
+}
+h6{
+    font-weight: 400;
+    line-height: 1.5;
+    color: #3b3b3b;
+    text-rendering: optimizeLegibility;
+    margin-top: 0;
+    margin-bottom: 1;
+    
+}
+p {
+  font-family: 'Inconsolata', monospace;
+}
+a {
+  color:white;
+}
+a:hover {
+  text-decoration: none;
+  color: #b7aaf1;
+  transition: color 0.s ease;
+
+}
+footer {
+
+  width: 100%;
+  height: 2.5rem;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+
+header{
+  position: absolute;
+  padding-bottom: 5px;
+}
+
+
+#banner{
+  margin-bottom: 0;
+  margin-top: 50px;
+  background-image: linear-gradient(to bottom right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/plantas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #3b3b3b;
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+
+#banner h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+#banner p {
+  color: white;
+  font-size: 38px;
+  font-weight: 600;
+  padding: 0;
+}
+ .imgBrand{
+  width: 40px;
+  position: relative;
+  bottom: 10px;
+ }
+
+ .navbar {
+    margin-bottom: 15px;
+    border-radius: 0;
+    position: fixed;
+    overflow: auto;
+    }
+
+  .myNavbar a{
+    color: white;
+    font-size: 25px;
+    font-family: 'Inconsolata', monospace;
+  }
+  .myNavbar a:hover{
+    color: lightgreen !important;
+  }
+
+  .myNavbar li {
+  border-right: 1px solid white;
+  }
+
+  .myNavbar li:last-child {
+  border-right: none;
+  }
+
+#footer{
+  padding: 10px;
+  background-image: url(images/footerblur.jpg);
+  background-size: cover;
+  background-color: #3b3b3b;
+  color: lightgrey;
+  margin: 5px auto;
+  border-radius: 12px;
+}
+
+#footer h2{
+  margin: 2px;
+  padding-bottom: 10px;
+}
+
+#footer a{
+  color: white;
+  font-size: 15px;
+}
+
+.facebook-color:hover{
+  color: #3b5998;
+}
+
+.instagram-color:hover{
+  color: #C13584;
+}
+
+.whatsapp-color:hover{
+  color: #25D366;
+}
+
+#footer a:hover {
+  color: lightgreen;
+}
+
+#footer p{
+  text-align: center;
+  padding: 5px;
+  color: white;
+  font-size: 18px;
+  margin: 5px;
+}
+
+#footer ul{
+  text-align: center;
+}
+
+#footer h2{
+  color: #d6f789;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 600;
+  text-shadow: 0px 0px 1px lightgreen;
+}
+
+.copyright{
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+  padding: 1px;
+  color: white;
+  font-size: 18px;
+  margin: 1px;
+}
+
+.list-inline{
+  padding: 5px;
+  margin: 5px;
+}
+
+#nosotros{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#productos{
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+#galeria{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.titulo{
+  font-size: 40px;
+  font-weight: 700;
+  color:#436e43;
+  margin-bottom: 10px;
+  margin-top: 45px; 
+}
+
+.texto{
+  width: 90%; 
+  margin: auto;
+  font-size: 15px;
+}
+
+.link-contacto{
+  color: #52a152;
+  border-style: solid;
+  border-color: #436e43;
+  border-radius: 120px;
+  padding: 8px 14px;
+  font-style: oblique;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.button-extra {
+  border-radius: 8px;
+  background-color: #436e43;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 1px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.button-extra span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-extra span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 11px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-extra:hover span {
+  padding-right: 10px;
+}
+
+.button-extra:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button-extra a{
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.letra-distinta{
+  color: #d6f789;
+}
+
+.mySlides {display: none;}
+img {
+  vertical-align: middle;
+}
+
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 1.2s ease;
+}
+
+.active {
+  background-color: #539170;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.0s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 640px) {
+  .text {font-size: 11px}
+
+  #banner h1 {
+  font-size: 55px;
+  margin-bottom: 15px;
+  }
+}
+
